@@ -1,10 +1,5 @@
 import React from "react";
 
-interface Todo {
-    text: string;
-    completed: boolean;
-};
-
 interface Props {
     todo: Todo;
 };
