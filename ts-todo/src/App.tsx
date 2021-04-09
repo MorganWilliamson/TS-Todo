@@ -38,8 +38,10 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">TypeScript To-Do List:</h1>
-      <TodoList className="todoList" todos={todos} toggleTodo={toggleTodo} />
-      <AddTodoForm addTodo={addTodo} />
+      <div className="listComp">
+        <TodoList todos={todos} toggleTodo={toggleTodo} />
+        <AddTodoForm addTodo={addTodo} />
+      </div>
     </div>
   )
 }

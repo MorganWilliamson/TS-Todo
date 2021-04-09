@@ -18,3 +18,11 @@ html {
 .App ul {
   list-style-type: none;
 }
+
+.listComp {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
