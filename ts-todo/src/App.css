@@ -1,5 +1,5 @@
 html {
-  background: rgb(183, 183, 247);
+  background: rgb(150, 150, 255);
 }
 
 .title {
@@ -25,4 +25,7 @@ html {
   width: 45%;
   border: 2px solid black;
   border-radius: 8px;
+  margin: 0 25%;
+  padding: 2%;
+  background: rgb(252, 159, 105);
 }

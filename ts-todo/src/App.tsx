@@ -39,6 +39,7 @@ function App() {
     <div className="App">
       <h1 className="title">TypeScript To-Do List:</h1>
       <div className="listComp">
+        <p>Click to complete a task, or add a new one below.</p>
         <TodoList todos={todos} toggleTodo={toggleTodo} />
         <AddTodoForm addTodo={addTodo} />
       </div>
